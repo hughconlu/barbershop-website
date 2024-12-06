@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <ul class="nav-items left">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#loyalty">Loyalty</a></li>
+            </ul>
+            <div class="logo">
+                <img src="images/image-removebg-preview.png" alt="iRazor Logo">
+            </div>
+            <ul class="nav-items right">
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!-- Image Slideshow -->
+    <div class="slideshow-container">
+        <div class="slides fade">
+            <img src="images/647fb85c69e95444243ef9bd_Henley's Gentlemen's Grooming - Barbershop and Mens Grooming.webp" style="width:100%">
+            <div class="overlay-text">
+                <h2>Cutting Edge, Every Time</h2>
+            </div>
+        </div>
+        <div class="slides fade">
+            <img src="images/HERO_Barbershop_Cuts_and_Cocktails_Credit_David_J_Crewe_1920x1280.webp" style="width:100%">
+            <div class="overlay-text">
+                <h2>New Zealand's Finest Barbers</h2>
+            </div>
+        </div>
+        <div class="slides fade">
+            <img src="images/kym-barbershop.jpg" style="width:100%">
+            <div class="overlay-text">
+                <h2>Crafting Confidence One Cut at a Time</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dots -->
+    <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+        <div class="service-item">
+            <img src="images/mens-dept-barbershop-services.jpg" alt="Haircut 1">
+            <h3><strong>Classic Haircut</strong></h3>
+            <div class="desc">
+                <p>Our skilled stylists specialize in a variety of cutting techniques, from classic styles to modern trends. Experience a refreshing change and leave our salon feeling revitalized and looking your best.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="images/barber-shaving-customer-with-straight-razor.jpg" alt="Haircut 2">
+            <h3><strong>Shave and Grooming</strong></h3>
+            <div class="desc">
+                <p>Indulge in a traditional shave that goes beyond mere grooming. Our expert barbers use classic techniques and high-quality products to deliver a smooth and comfortable shave that leaves your skin feeling refreshed.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="images/628ff2b948d58bf4860dd1e2_Roselands-67.jpg" alt="Haircut 3">
+            <h3><strong>Kid's Haircuts</strong></h3>
+            <div class="desc">
+                <p>Our friendly stylists are skilled in working with children of all ages, making the process enjoyable and stress-free, ensuring your child leaves the salon with a smile.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Image with Text Section -->
+    <section class="image-overlay">
+    <img src="images/beauty-blog-template-1-768x432.png" alt="Background Image" class="background-image">
+    <div class="overlay-text">
+        <h2>Where Technology Meets Style</h2>
+    </div>
+    </section>
+
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+    <div class="contact-container">
+        <div class="contact-details">
+            <h2>Contact Us</h2>
+            <p>iRazor is 100% Kiwi-owned, born and bred right here in the country of long white clouds Aotearoa (New Zealand). We are a hairdressing company specialising on providing high quality, trendy and creative haircuts at a friendly price.</p>
+            <h3>Phone Number</h3>
+            <p>(123) 456-7890</p>
+            <h3>Email</h3>
+            <p>info@barbershop.com</p>
+            <h3>Address</h3>
+            <p>123 Main St, City, Country</p>
+            <div class="links">
+                <img src="images/facebook-circle-logo-png.png">
+                <img src="images/instagram.png">
+            </div>
+        </div>
+        
+        <!-- Map Section -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345098434!2d144.95373531531627!3d-37.81627997975149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0a600f67%3A0x5045675218ceed0!2s123%20Main%20St%2C%20City%2C%20Country!5e0!3m2!1sen!2sus!4v1634695289214!5m2!1sen!2sus" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Barbershop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
